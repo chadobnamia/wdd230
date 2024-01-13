@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Noto+Sans+KR:wght@500&family=Open+Sans:wght@300&display=swap');
+
+body{
+    background-color:aliceblue;
+    font-family: 'Open sans';
+    font-size: 24px;
+}
+header{
+    text-align: center;
+    font-family: 'Fira sans';
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+}
+nav a{
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+main{
+   display: grid; 
+   width:700px;
+   margin:0 auto;
+}
+
+ul{
+    list-style: none;
+}
+main h3{
+    background-color: rgb(30, 30, 184);
+    color: white;
+    text-align: center;
+}
+.card{
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+}
