@@ -11,14 +11,16 @@ header{
     
 }
 nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: aquamarine;
+    text-align: center;
 }
 nav a{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
     font-family: 'Open sans';
     text-decoration: none;
+    padding:1rem;
 }
 main{
    display: grid; 
