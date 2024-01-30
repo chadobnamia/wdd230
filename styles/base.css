@@ -6,11 +6,25 @@ body{
     font-size: 24px;
 }
 header{
-    text-align: center;
     font-family: 'Fira sans';
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
     
 }
-nav{
+
+header img{
+    grid-column: 1/2;
+    width: 100%;
+    margin: 1.2rem 1.2rem;
+}
+header h1{
+    grid-column: 2/2;
+    padding-left:2.5rem;
+    font-size: 1.4em;
+}
+/* nav{
     background-color: aquamarine;
     text-align: center;
 }
@@ -23,7 +37,7 @@ nav a {
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
-}
+} */
 
 main{
    display: grid; 
@@ -31,20 +45,104 @@ main{
    margin:0 auto;
 }
 
+main h2{
+    font-size: 1em;
+    text-align: center;
+}
 ul{
     list-style: none;
+    
 }
 main h3{
     background-color: rgb(30, 30, 184);
     color: white;
     text-align: center;
+    font-size: 1em;
 }
 .card{
     padding-top: 0;
     margin-bottom: 20px;
+    font-size: .8em; 
 }
 footer{
     text-align: center;
+}
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+	top:1rem;
+	right:1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: aquamarine;
+    flex : 1;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
+.active {
+	background-color:#baeedd;
+	color:#333 !important;
+	font-weight:bold;/* just a wayfinding symbol for the user */
+}
+/* large view navigation ************************************/
+@media (min-width: 37.5em) {
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		display: flex;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+    header{
+        display: block;
+        text-align: center;
+    }
+    header img{
+        width:200px
+    }
+    header h1{
+        padding:0;
+    }
+
 }
 
 @media (min-width: 640px) {
