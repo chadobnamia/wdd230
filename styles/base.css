@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Noto+Sans+KR:wght@500&family=Open+Sans:wght@300&display=swap');
 
-body{
+/* body{
     background-color:aliceblue;
     font-family: 'Open sans';
     font-size: 24px;
 }
-header{
+/* header{
     font-family: 'Fira sans';
-    width: 100%;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 header img{
@@ -21,7 +20,7 @@ header h1{
     grid-column: 2/2;
     padding-left:2.5rem;
     font-size: 1.4em;
-}
+} */
 /* nav{
     background-color: aquamarine;
     text-align: center;
@@ -36,7 +35,7 @@ nav a {
 	padding: 1rem;
 	text-decoration: none;
 } */
-
+/* 
 main{
    display: grid; 
    width:700px;
@@ -64,10 +63,10 @@ main h3{
 }
 footer{
     text-align: center;
-}
+} */ */
 
 /* small view navigation */
-#menu {
+/* #menu {
 	font-size: 1.5rem;
 	border: 0;
 	background: none;
@@ -108,19 +107,19 @@ footer{
 }
 
 /* when the button is clicked - the open class is toggled (added/removed) */
-.open>a {
+/* .open>a {
 	display: block;
 }
 
 .active {
 	background-color:#baeedd;
 	color:#333 !important;
-	font-weight:bold;/* just a wayfinding symbol for the user */
-}
+	font-weight:bold;/* just a wayfinding symbol for the user
+}*/
 /* large view navigation ************************************/
-@media (min-width: 37.5em) {
+/*@media (min-width: 37.5em) {
     #menu {
-		display: none; /* hide hamburger button */
+		display: none; /* hide hamburger button 
 	}
 
 	.navigation {
@@ -171,4 +170,4 @@ footer{
 
 @media (min-width: 640px) {
 	
-}
+} */
