@@ -1,11 +1,13 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato',sans-serif;
   }
-  
+  h1,h2,h3{
+    font-family: 'Playfair Display', serif;
+}
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://github.com/chadobnamia/wdd230/blob/main/chamber/images/Mt._Banahaw_of_Lucban,_Quezon.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/hero_image.jpg');
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,4 +38,18 @@ body, html {
   .hero-text button:hover {
     background-color: #555;
     color: white;
+  }
+  
+  header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    padding:1em;
+    align-items: center;
+  }
+  header img{
+    grid-column: 1/2;
+    width: 100px;
+  }
+  section{
+    height:80vw;
   }
