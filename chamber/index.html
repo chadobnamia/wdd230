@@ -20,33 +20,102 @@
 <body>
     <header id="home">
         <img src="images/Lucban_logo.svg" alt="Lucban Chamber of Commerce Logo">
-        <h1>Lucban Chamber of Commerce</h1>
+        <!-- <h1>Lucban Chamber of Commerce</h1> -->
     </header>
     <main>
+        <a href="#" id="menu"></a>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#events">Events</a>
-            <a href="#aboutus">About Us</a>
-            <a href="#directory">Directory</a>
+            <ul class="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#directory">Directory</a></li>
+            </ul>
         </nav>
         <section>
             <!-- <img src="images/hero_image.jpg" alt=""> -->
             <div class="hero-image" >
                 <div class="hero-text">
-                  <h1>Welcome to Lucban Chamber of Commerce</h1>
+                  <h1>Greater Lucban Chamber of Commerce</h1>
                   <button>Join Us</button>
                 </div>
               </div>
         </section>
-        <section id="news"></section>
-        <section id="events"></section>
-        <section id="aboutus"></section>
-        <section id="directory"></section>
+        <section id="news">
+            <h3>Latest News</h3>
+            <div class="content-wrapper">
+                <div>
+                    <img src="images/holy_week.jpg" alt="">
+                    <p>Holy Week is already approaching. Ash Wednesday today.</p>
+                </div>
+                <div>
+                    <img src="images/passing_Dean.jpg" alt="">
+                    <p>We mourn for the passing of a well-known Dean of Lucban Academy.</p>
+                </div>
+                <div>
+                    <img src="images/missu_Lucban.jpg" alt="">
+                    <p>First Miss Unniverse Ph contestant from Lucban.</p>
+                </div>
+            </div>
+        </section>
+        <section id="events">
+            <h3>Upcoming Events</h3>
+            <div class="events">
+                <div>
+                    <img src="images/food_bazaar.jpg" alt="">
+                    <h4>Food Bazaar (March 18 - 30, 2024)</h4>
+                    <p>For inquiries check the directory. <a href="#directory">Click Here</a></p>
+                </div>
+            </div>
+        </section>
+        <section id="aboutus">
+            <h3>About Us</h3>
+            <div class="abouts">
+                <img src="images/placeholder-news.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at lacus in felis venenatis mattis. In id massa erat. Fusce ut augue eget velit iaculis luctus nec sit amet libero. Nunc orci dui, porttitor eu ante finibus, interdum rutrum nulla. Mauris quis hendrerit dolor. Mauris scelerisque enim felis. Praesent ac condimentum libero, non porta urna. </p>
+            </div>
+        </section>
+        <section id="directory">
+            <h3>Directory</h3>
+            <div class="directory">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Contact Number</th>
+                    </tr>
+                    <tr>
+                        <td>Juan Carlos</td>
+                        <td>Chairman</td>
+                        <td>0123-1211-11121</td>
+                    </tr><tr>
+                        <td>Juan Carlos</td>
+                        <td>Board member</td>
+                        <td>0123-1211-11121</td>
+                    </tr><tr>
+                        <td>Juan Carlos</td>
+                        <td>Board member</td>
+                        <td>0123-1211-11121</td>
+                    </tr><tr>
+                        <td>Juan Carlos</td>
+                        <td>Board member</td>
+                        <td>0123-1211-11121</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </section>
 
     </main>
     <footer>
-
+        <h4>Lucban Chamber of Commerce</h4>
+        <p>&copy;<span id="year"></span> <br>
+            Richard Concepcion Obnamia <br>
+            Philippines
+        </p>
+        <p id="lastModified"></p>
     </footer>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
