@@ -123,7 +123,7 @@ ul{
     color:white;
   }
   .content-wrapper{
-    display: flex;
+    display: block;
     align-items:baseline;
     justify-content: space-between;
     text-align: center;
