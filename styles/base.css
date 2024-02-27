@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Noto+Sans+KR:wght@500&family=Open+Sans:wght@300&display=swap');
 
-/* body{
+body{
     background-color:aliceblue;
     font-family: 'Open sans';
     font-size: 24px;
 }
-/* header{
+header{
     font-family: 'Fira sans';
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 250px auto;
     align-items: center;
+    background-color: #2b2a6d;
+    color:white;
 }
+
 header img{
     grid-column: 1/2;
     width: 100%;
@@ -20,7 +23,8 @@ header h1{
     grid-column: 2/2;
     padding-left:2.5rem;
     font-size: 1.4em;
-} */
+    text-align: center;
+} 
 /* nav{
     background-color: aquamarine;
     text-align: center;
@@ -34,16 +38,17 @@ nav a {
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
-} */
-/* 
+}  */
+
 main{
    display: grid; 
-   width:700px;
+   width:100%;
    margin:0 auto;
 }
 
 main h2{
-    font-size: 1em;
+    font-size: .8em;
+    text-align: center;
 
 }
 ul{
@@ -61,16 +66,18 @@ main h3{
     margin-bottom: 20px;
     font-size: .8em; 
 }
+section:nth-child(2){
+    text-align: center ;
+}
 footer{
     text-align: center;
-} */ */
+} 
 
-/* small view navigation */
-/* #menu {
-	font-size: 1.5rem;
+/*small view navigation */
+#menu {
+	font-size: 2.5rem;
 	border: 0;
 	background: none;
-	color: #000;
  	position: absolute;
 	top:1rem;
 	right:1rem;
@@ -78,6 +85,7 @@ footer{
 
 #menu::before {
 	content: "☰";
+    color: white;
 }
 
 #menu.open::before {
@@ -85,19 +93,22 @@ footer{
 }
 
 .navigation {
+    grid-column: 1/-1;
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
 	list-style: none;
-	background-color: aquamarine;
+	background-color: #2b2a6d;
     flex : 1;
+    padding: 1em;
 }
 
 .navigation a {
 	display: none;
-	padding: .2rem;
+    font-size: 2rem;
+	padding: 1rem;
 	text-align: center;
 	text-decoration: none;
-	color: #333;
+	color:white;
     font-size: 1em;
 }
 .navigation a:hover {
@@ -107,19 +118,19 @@ footer{
 }
 
 /* when the button is clicked - the open class is toggled (added/removed) */
-/* .open>a {
+.open>a {
 	display: block;
 }
 
 .active {
 	background-color:#baeedd;
 	color:#333 !important;
-	font-weight:bold;/* just a wayfinding symbol for the user
-}*/
+	font-weight:bold;
+}
 /* large view navigation ************************************/
-/*@media (min-width: 37.5em) {
+/* @media (min-width: 37.5em) {
     #menu {
-		display: none; /* hide hamburger button 
+		display: none;
 	}
 
 	.navigation {
@@ -166,8 +177,4 @@ footer{
 		flex: 1 1 100%;
 	}
 
-}
-
-@media (min-width: 640px) {
-	
 } */
