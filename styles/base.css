@@ -25,20 +25,6 @@ header h1{
     font-size: 1.4em;
     text-align: center;
 } 
-/* nav{
-    background-color: aquamarine;
-    text-align: center;
-}
-nav ul {
-	list-style-type: none;
-}
-nav a {
-	display: block;
-	color: #000;
-	text-align: center;
-	padding: 1rem;
-	text-decoration: none;
-}  */
 
 main{
    display: grid; 
@@ -46,6 +32,28 @@ main{
    margin:0 auto;
 }
 
+.hero img{
+    width: 100%;
+    height: auto;
+}
+.herolabel {
+	position: absolute;
+	top: 350px;
+	left: 10px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.2rem;
+	font-family:"Fira-sans";
+}
 main h2{
     font-size: .8em;
     text-align: center;

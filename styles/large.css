@@ -25,6 +25,13 @@
     header h1{
         padding:0;
     }
+    .hero{
+        grid-column: 1/4;
+    }
+    .herolabel{
+        top: 450px;
+	    left: 250px;
+    }
     main{
         display: grid !important;
         grid-template-columns: 1fr 1fr 1fr;
