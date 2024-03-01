@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <link rel="icon" href="favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Richard Obnamia - WDD 230 - Web Frontend Development</title>
+        <meta name="description" content="WDD 230 - Web Frontend Development Richard Obnamia course assignment portal. 
+        This website serves as way to show web development skills and conitunuous learning through various
+        excercises.">
+        <meta name="author" content="Richard Obnamia">
+    
+        <meta property="og:title" content="Pride of My Hometown">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://en.wikipedia.org/wiki/Lucban#/media/File:Fried_Kiping_Vendor.jpg">
+        <meta property="og:url" content="https://en.wikipedia.org/wiki/Lucban">
+        
+        
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="stylesheet" href="styles/form.css">
+          
+    </head>
+<body>
+    <header>
+        <img src="images/chad_profile.jpg" alt="Author profile picture">
+        <h1>Richard Obnamia</h1>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <a href="#">HOME</a>
+        <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+        <a href="chamber/">Chamber</a>
+        <a href="https://www.byui.edu/" target="_blank">BYU Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng#p1" target="_blank">Scripture</a>
+    </nav>
+    
+    </header>
+    <main>
+        
+        <form action="/record.html" method="get">
+            <h2>User Login</h2>
+            <label for="username">Username</label>
+            <input type="text" name="fname" id="fname" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" pattern=".{8,}" required>
+            <label for="email">BYU Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your byui email address" title="Enter a valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required>
+            <label for="rating">Enter rating</label>
+            <p id="rangevalue">1</p>
+            <input type="range" id="r" name="r" min="1" max="10" value="1" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+        </form>
+    </main>
+    <footer> 
+        <p>&copy;<span id="year"></span> <br>
+            Richard Concepcion Obnamia <br>
+            Philippines
+        </p>
+        <p id="lastModified"></p>
+        <p>This website in only created as a course requirement for WDD230 learning and not intended for other use.</p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
