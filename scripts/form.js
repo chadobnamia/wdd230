@@ -8,3 +8,5 @@ range.addEventListener('input', displayRatingValue);
 function displayRatingValue() {
     rangevalue.textContent = range.value;
 }
+
+document.
