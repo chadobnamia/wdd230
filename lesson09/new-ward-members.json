@@ -1,0 +1,41 @@
+{
+    "moveinInformation":{
+        "familyName":"Abanilla",
+        "moveInDate":"2024-01-15",
+        "numberOfPeople": 6,
+        "visitedByBishopric": true,
+        "familyMembers":[
+            {
+                "name":"Jared Abanilla",
+                "gender":"Male",
+                "birthdate":"1955-07-04"
+            },
+            {
+                "name":"Minda Abanilla",
+                "gender":"Female",
+                "birthdate":"1958-01-17"
+            },
+            {
+                "name":"Clarence Abanilla",
+                "gender":"Male",
+                "birthdate":"1988-03-120"
+            },
+            {
+                "name":"Ron Abanilla",
+                "gender":"Male",
+                "birthdate":"1990-06-23"
+            },
+            {
+                "name":"Janice Abanilla",
+                "gender":"Female",
+                "birthdate":"1993-11-03"
+            },
+            {
+                "name":"Julia Abanilla",
+                "gender":"Female",
+                "birthdate":"1996-10-21"
+            }
+        ]
+
+    }
+}
