@@ -1,23 +1,109 @@
 {
-    "lessons":
+    "lessons":[
+    {
+        "lesson":"01",
+        "links":[
+            {
+                "url":"lesson01/holygrail.html",
+                "title":"Holy Grail"
+            },
+            {
+                "url":"https://codepen.io/chad-obnamia/pen/oNVYaPX",
+                "title":"JS Pen"
+            }]
+    },
     {
         "lesson":"02",
-        "links":
-        {
-            "url":"lesson02/mediaquery.html",
-            "title":"Media Queries"
-        },
-        {
-            "url":"lesson02/design-principles.html",
-            "title":"Design Principles Document"
-        }
-    }
+        "links":[
+            {
+                "url":"lesson02/media-query.html",
+                "title":"Media Query"
+            },
+            {
+                "url":"lesson02/design-principles.html",
+                "title":"Design Principles Document"
+            }]
+    },
     {
         "lesson":"03",
+        "links":[
+            {
+                "url":"https://chadobnamia.github.io/wdd230/lesson03/images/css_combinators_SS.png",
+                "title":"CSS Cobinators"
+            },
+            {
+                "url":"https://codepen.io/chad-obnamia/pen/eYXyRPB",
+                "title":"Pseudo Element"
+            },
+            {
+                "url":"https://codepen.io/chad-obnamia/pen/VwRQZYw",
+                "title":"Responsive Navigation"
+            }]
+    },
+    {
+        "lesson":"04",
+        "links":[
+            {
+                "url":"https://codepen.io/chad-obnamia/pen/gOEVyZX",
+                "title":"CSS Pseudo-Classes"
+            }
+        ]
+    },
+    {
+        "lesson":"05",
         "links":
-        {
-            "url":"lesseon03/chamber-site-plan.html",
-            "title":"Chamber Site Plan"
-        }
+            {
+                "url":"https://chadobnamia.github.io/wdd230/lesson05/bom.html",
+                "title":"Book of Mormon - Top 10"
+            }
+    },
+    {
+        "lesson":"06",
+        "links":[
+            {
+                "url":"lesson03/images/landscape.webp",
+                "title":"WebP"
+            },
+            {
+                "url":"lesson06/responsive-images.html",
+                "title":"Responsive Image"
+            }]
+    },
+    {
+        "lesson":"07",
+        "links":[
+            {
+                "url":"lesson07/lazyload.html",
+                "title":"Lazy Loading"
+            },
+            {
+                "url":"lesson07/bom.html",
+                "title":"JS localStorage"
+            }]
+    },
+    {
+        "lesson":"08",
+        "links":[
+            {
+                "url":"lesson08/tablebuild.html",
+                "title":"HTML Tables"
+            },
+            {
+                "url":"form.html",
+                "title":"Forms"
+            }]
+    },
+    {
+        "lesson":"09",
+        "links":[
+            {
+                "url":"lesson09/new-ward-members.json",
+                "title":"JSON File"
+            },
+            {
+                "url":"lesson09/prophets.html",
+                "title":"Latter-day Prophets"
+            }]
     }
+    ]
 }
