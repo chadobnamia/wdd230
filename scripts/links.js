@@ -1,4 +1,4 @@
-const baseURL = "https://https://chadobnamia.github.io/wdd230/";
+const baseURL = "https://chadobnamia.github.io/wdd230/";
 
 const linksURL = "https://chadobnamia.github.io/wdd230/data/links.json";
 
