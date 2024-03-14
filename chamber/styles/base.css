@@ -136,7 +136,7 @@ ul{
 .content-wrapper>div>img{
     width:100px;
 }
-.content-wrapper>div>{
+.content-wrapper div{
     font-size:.5em
 }
 .events{
