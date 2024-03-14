@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <meta name="description" content="Discover Lucban's vibrant business community with Lucban Chamber of Commerce. Explore opportunities, connect with local businesses, and unlock the potential of this dynamic town.">
+    <meta name="author" content="Richard Obnamia">
+
+    <meta property="og:title" content="Lucban, Quezon">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://en.wikipedia.org/wiki/Lucban#/media/File:Fried_Kiping_Vendor.jpg">
+    <meta property="og:url" content="https://en.wikipedia.org/wiki/Lucban">
+
+
+    <title>Lucban Chamber of Commerce</title>
+</head>
+<body>
+    <header id="home">
+        <img src="images/Lucban_logo.webp" alt="Lucban Chamber of Commerce Logo">
+    </header>
+    <main>
+        <a href="#" id="menu"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#directory">Directory</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <form action="thankyou.html" method="get">
+              <h2>Membership Application Form</h2>
+              <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+              </div>
+              <div class="form-group">
+                <label for="organization">Organization Name:</label>
+                <input type="text" id="organization" name="organization" required>
+              </div>
+              <div class="form-group">
+                <label for="position">Position:</label>
+                <input type="text" id="position" name="position" required pattern="[a-zA-Z\s-]{7,}">
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@example.com">
+              </div>
+              <div class="form-group">  
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+              <div class="form-group">
+                <label for="membership">Membership Level:</label>
+                <select id="membership" name="membership">
+                  <option value="NP">NP Membership</option>
+                  <option value="Bronze">Bronze Membership</option>
+                  <option value="Silver">Silver Membership</option>
+                  <option value="Gold">Gold Membership</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description"></textarea>
+              </div>
+              <div class="buttonHolder">
+                <input type="hidden" id="timestamp" name="timestamp">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+            <div class="membership-benefits">
+              <h3>Membership Benefits</h3>
+              <ul>
+                <li>NP Membership: No fee</li>
+                <li>Bronze Membership: Basic benefits</li>
+                <li>Silver Membership: Additional benefits</li>
+                <li>Gold Membership: Premium benefits</li>
+              </ul>
+            </div>
+          </div>
+    </main>
+    <footer>
+        <h4>Lucban Chamber of Commerce</h4>
+        <p>&copy;<span id="year"></span> <br>
+            Richard Concepcion Obnamia <br>
+            Philippines
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

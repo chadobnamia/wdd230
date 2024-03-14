@@ -49,6 +49,10 @@
         width: 780px;
         font-size: 1.2em;
     }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .sticky {
         position: fixed;
         top: 0;
