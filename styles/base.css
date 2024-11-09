@@ -10,7 +10,7 @@ body {
 
 /* mobile **************************/
 header {
-	background-color: #bbb;
+	background-color: #1c4d72bb;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -28,9 +28,8 @@ h1 {
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #000;
 	margin: 0 auto;
-	max-width: 800px;
 }
 nav ul {
 	list-style-type: none;
