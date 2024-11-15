@@ -15,10 +15,14 @@ header {
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+header img{
+	width: 50px;
+}
+header span{
+	font-size: 1.5em;
+	color:white;
+}
+nav ul{
     background-color: black
 }
 nav a {
@@ -31,10 +35,11 @@ nav a {
 
 nav a:hover {
 	text-decoration:overline;
+	color: brown;
 }
 
 .active {
-	color: yellow;
+	color: brown;
 }
 nav a{
     font-family: 'Open sans';
@@ -45,11 +50,14 @@ main{
    width:700px;
    margin:0 auto;
 }
+main h1{
+	font-size: 1.2em;
+}
 
 ul{
     list-style: none;
 }
-main h3{
+main h2{
     background-color: rgb(30, 30, 184);
     color: white;
     text-align: center;
@@ -70,10 +78,6 @@ footer{
 header,
 main {
 	margin: 0 auto;
-}
-
-h1 {
-	font-size: 2rem;
 }
 
 
