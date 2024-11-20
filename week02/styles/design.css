@@ -9,7 +9,10 @@ footer {
 	margin: 0 auto;
 }
 
-
+marquee {
+	padding: 1rem;
+	background-color: #eee;
+}
 div.banner {
     border: 1px solid #bbb;
     padding: 1rem;
@@ -40,8 +43,8 @@ article p {
 }
 
 .callout {
-	color: #cab9b9;
-	background-color: #702963;
+	color: #000;
+	background-color: #dbcff2;
     padding: 1rem;
     grid-column: 1/3;
 }
