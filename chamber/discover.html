@@ -17,21 +17,23 @@
     
     
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/base_discover.css">
+    <link rel="stylesheet" href="styles/larger_discover.css">
       
 </head>
 <body>
     <header>
-        <img src="images/chad_profile.jpg" alt="Author profile picture">
-        <h1>Richard Obnamia</h1>
+        <img src="images/chad_profile.jpg" alt="Richard Obnamia">
+        <span>Richard Obnamia</span>
+    </header> 
     <button id="menu"></button>
-    <nav class="navigation">
-        <a href="#">HOME</a>
-        <a href="lesson03/chamber-site-plan.html">Site Plan</a>
-        <a href="chamber/">Chamber</a>
-        <a href="https://www.byui.edu/" target="_blank">BYU Idaho</a>
-        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng#p1" target="_blank">Scripture</a>
+    <nav class="navigation open">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
     </nav>
     
     </header>
@@ -46,11 +48,12 @@
             <div>
                 <h2>Local Attraction</h2>
                 <h3>Kamay ni Hesus - Lucban, Quezon</h3>
-                <img src="images/kamay.webp" alt="Kamay ni Hesus">
+                <img src="images/kamay.webp" alt="Kamay ni Hesus" width="250">
             </div>
             <div>
-                <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=Asia%2FManila&bgcolor=%23A79B8E&src=cGlha2lhcmE4QGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZDlmZGY4YTg3MDI5ZjY5MzFhNzQ1MTAxMDYwZjMxOTk2YTAzZGRkNjA1NTgzNzRmMmNlNTcwODliZDliYWE1M0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZmFtaWx5MDA4Njc5MjMxODg3NTYyOTE2MzlAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4ucGhpbGlwcGluZXMjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%2333B679&color=%23F09300&color=%23795548&color=%230B8043" style="border:solid 1px #777" width="350" height="400" frameborder="0" scrolling="no"></iframe>
+                <iframe src="https://calendar.google.com/calendar/u/0?cid=cmljaGFyZG9ibmFtaWFAZ21haWwuY29t" style="border:solid 1px #777" width="250" height="400" frameborder="0" scrolling="no"></iframe>
             </div>
+            <div id="sidebar"></div>
         </aside>
         <div class="main-content">
             <picture>
@@ -86,6 +89,7 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/visit.js"></script>
     
 </body>
 

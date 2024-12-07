@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Sansita", sans-serif;
+	display: grid;
+	height: 100vh;
+	min-width: fit-content;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
+}
+header {
+	background-color: #1c4d72bb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	width: 100%;
+	padding: 2rem;
+    grid-column: 1 / 3;
+}
+header img{
+	width: 80px;
+}
+header span{
+	font-size: 1.5em;
+	color:white;
+	padding:1em;
+}
+nav ul{
+    background-color: black
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+.hero{
+	grid-column: 1/4;
+	position: relative;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+}
+.herolabel {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid var(--bord_color);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
+main{
+	display: grid; 
+	margin:0 auto;
+	max-width: 800px;
+ }
+ main h1{
+	 font-size: 1.2em;
+	 text-align: center;
+	 padding: .6em;
+	 grid-column: 1/4;
+ }
+ 
+ ul{
+	 list-style: none;
+ }
+ main h2{
+	 background-color: rgb(30, 30, 184);
+	 color: white;
+	 text-align: center;
+	 padding: .5em;
+	 margin-bottom: 10px;
+ }
+ aside div{
+	padding-top: 20px;
+	text-align: center;
+ }
+ .card{
+	 padding-top: 0;
+	 margin-bottom: 20px;
+	 grid-column: 1/4;
+ }
+ 	.card li{
+		padding-bottom: 5px;
+	}
+ footer{
+	 text-align: center;
+	 grid-column: 1 / 3;
+	 margin-top: 2rem;
+ }
+ .card-weather{
+	grid-column: 1/4;
+ }
+ /*small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+ 	position: absolute;
+	top:1rem;
+	right:1rem;
+}
+
+#menu::before {
+	content: "☰";
+    color: white;
+}
+
+#menu.show::before {
+	content: "⛌";
+}
+.navigation li {
+	display: none;
+}
+.navigation {
+	display: block;
+	list-style: none;
+	grid-column: 1 / 3;
+}
+
+.navigation a { 
+	display: block;
+    font-size: 2rem;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+    font-size: 1em;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+.show li {
+	display: block;
+}
+.main-content img{
+	width: 100%;
+    background: #000;
+    animation: fade 15s;
+    margin-top:10px;
+}
+@keyframes fade {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:100%
+    }
+}
