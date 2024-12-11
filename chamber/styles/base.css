@@ -183,7 +183,8 @@ footer{
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: #16697A;
+  color: white;
 }
 .container h2{
   text-align: center;
@@ -201,6 +202,7 @@ form{
 }
 label {
   font-weight: bold;
+  color: #ccc;
 }
 textarea {
   width: 100%;
