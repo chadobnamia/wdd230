@@ -17,6 +17,9 @@ main{
     margin-left:1rem;
     
 }
+span{
+    font-size: 14px;
+}
 #cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -35,5 +38,6 @@ section{
 img {
     width: auto;
     max-width: 320px;
-    height:300px
+    height:300px;
+    margin-top: 20px;
   }
