@@ -1,9 +1,9 @@
-const url = '/data/members.json'
+const url = 'https://raw.githubusercontent.com/chadobnamia/wdd230/refs/heads/main/chamber/data/members.json'
 
 const membersContainer = document.getElementById('members-container');
 
 const displayInfo = (members)=>{
-    data.members.forEach((member) => {
+    members.forEach((member) => {
         // Create a div for each member
     const memberDiv = document.createElement('div');
     memberDiv.classList.add('member');
@@ -32,13 +32,13 @@ const displayInfo = (members)=>{
 
     // Append the member div to the container
     membersContainer.appendChild(memberDiv);
-    }) 
+    });
 }
 
 async function getMemberData(){
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.members);
+    displayInfo(data.members);
 }
 
 getMemberData();
