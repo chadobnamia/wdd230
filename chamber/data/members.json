@@ -1,0 +1,74 @@
+{
+    "members": [
+      {
+        "name": "Tech Solutions Inc.",
+        "address": "123 Tech Street, Silicon Valley, CA 94043",
+        "phone": "+1 408-555-1234",
+        "website": "https://www.techsolutions.com",
+        "image": "tech_solutions_logo.png",
+        "membership_level": "Gold",
+        "industry": "Technology",
+        "founded": 2005
+      },
+      {
+        "name": "Green Earth Ltd.",
+        "address": "456 Green Rd, New York, NY 10001",
+        "phone": "+1 212-555-5678",
+        "website": "https://www.greenearth.com",
+        "image": "green_earth_logo.png",
+        "membership_level": "Silver",
+        "industry": "Environmental",
+        "founded": 2010
+      },
+      {
+        "name": "Future Innovations",
+        "address": "789 Future Blvd, Austin, TX 73301",
+        "phone": "+1 512-555-8765",
+        "website": "https://www.futureinnovations.com",
+        "image": "future_innovations_logo.png",
+        "membership_level": "Platinum",
+        "industry": "Research & Development",
+        "founded": 2015
+      },
+      {
+        "name": "EcoPower Solutions",
+        "address": "321 Solar Ave, Denver, CO 80202",
+        "phone": "+1 303-555-4321",
+        "website": "https://www.ecopower.com",
+        "image": "ecopower_logo.png",
+        "membership_level": "Gold",
+        "industry": "Energy",
+        "founded": 2007
+      },
+      {
+        "name": "HealthCare Pro",
+        "address": "654 Wellness Blvd, Chicago, IL 60614",
+        "phone": "+1 312-555-6543",
+        "website": "https://www.healthcarepro.com",
+        "image": "healthcarepro_logo.png",
+        "membership_level": "Silver",
+        "industry": "Healthcare",
+        "founded": 2012
+      },
+      {
+        "name": "Global Markets Inc.",
+        "address": "987 Business Park, Miami, FL 33101",
+        "phone": "+1 305-555-2345",
+        "website": "https://www.globalmarkets.com",
+        "image": "global_markets_logo.png",
+        "membership_level": "Platinum",
+        "industry": "Finance",
+        "founded": 1998
+      },
+      {
+        "name": "Creative Design Studios",
+        "address": "321 Art Lane, Los Angeles, CA 90001",
+        "phone": "+1 213-555-8765",
+        "website": "https://www.creativedesigns.com",
+        "image": "creativedesign_logo.png",
+        "membership_level": "Bronze",
+        "industry": "Design & Media",
+        "founded": 2018
+      }
+    ]
+  }
